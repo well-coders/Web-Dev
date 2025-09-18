@@ -1,0 +1,105 @@
+* {
+    box-sizing: 0%;
+    margin: 0;
+}
+body {
+    background-color:beige ;
+}
+
+.heading {
+    color: rgb(145, 145, 145);
+    background-color: rgba(145, 145, 145, 0.192);
+    border-right: 2px solid rgb(248, 247, 247);
+    border-bottom: 2px solid rgb(248, 247, 247);
+
+    box-shadow: 10px 10px 10px;
+    font-size: 3rem;
+    position: absolute;
+    top: 10%;
+    left:40%;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 40vw;
+    height: 13vh;
+    /* background-color: black; */
+    position: absolute;
+    top: 24%;
+    left: 31%;
+}
+
+.images img {
+    border-radius: 50%;
+    transition:all 200ms;
+    cursor: pointer;
+}
+img:hover {
+    scale: 1.1;
+    border:3px solid rgb(39, 39, 39);
+}
+
+.result {
+    text-decoration: underline;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    /* background-color: rgba(107, 107, 7, 0.795); */
+    width: 200px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+.scores{
+    width: 600px;
+    /* background-color: black; */
+    position: absolute;
+    top: 70%;
+    left: 35%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.userPoint {
+    display: flex;
+    flex-direction: row;
+    font-size:30px;
+}
+
+.compPoint {
+    display: flex;
+    flex-direction: row;
+    font-size:30px;
+}
+
+
+.choice {
+    width: 800px;
+    /* background-color: black; */
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.userChoice {
+    display: flex;
+    flex-direction: row;
+    font-size:30px;
+}
+
+.compChoice {
+    display: flex;
+    flex-direction: row;
+    font-size:30px;
+}

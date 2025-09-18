@@ -1,0 +1,776 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Netflix Sans', 'Helvetica Neue', 'Segoe UI', Roboto, Ubuntu;
+}
+
+body {
+    background-color: black;
+    overflow-x: hidden;
+}
+
+.page1 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: rgba(0, 0, 0, 0.808);
+    width: 2000px;
+    height: 800px;
+    z-index: 0;
+}
+
+.net-image-bag {
+    width: 2000px;
+    height: 800px;
+    z-index: -5;
+}
+
+.netflix-img {
+    width: 200px;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    left: 330px;
+}
+
+.nav1 {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 40px;
+    position: absolute;
+    top: 25px;
+    right: 350px;
+    /* border: 2px solid red; */
+}
+.lang {
+    margin-left: 200px;
+    border-radius: 5px;
+    padding-left: 50px;
+    position: relative;
+    width: 100px;
+    background-color: transparent;
+    color: white;
+    width: 140px;
+    height: 35px;
+    cursor: pointer;
+}
+
+option {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+#lan {
+    color: white;
+    position: relative;
+    top: 8px;
+    right: 100px;
+    font-size:20px;
+    color: white;
+    cursor: pointer;
+}
+
+.sign {
+    width: 80px;
+    height: 35px;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    position: relative;
+    right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.sign:hover {
+    background-color: rgba(255, 0, 0, 0.747);
+}
+#sign {
+    text-decoration: none;
+    color: white;
+}
+                                            /* B O D Y S I D E  */
+
+
+.body-side {
+    font-family: 'Netflix Sans', 'Helvetica Neue', 'Segoe UI', Roboto, Ubuntu;
+    font-weight:bolder;
+    font-size: 65px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    color: white;
+}
+
+.body-price {
+    font-family: 'Netflix Sans', 'Helvetica Neue', 'Segoe UI', Roboto, Ubuntu;
+    font-weight:bolder;
+    font-size: 20px;
+    position: absolute;
+    top: 59%;
+    left: 50%;
+    translate: -50% -50%;
+    color: white;
+}
+
+.body-watch {
+    font-family: 'Netflix Sans', 'Helvetica Neue', 'Segoe UI', Roboto, Ubuntu;
+    font-family: default;
+    font-size: 16px;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    translate: -50% -50%;
+    color: white;
+}
+
+.emial {
+    width: 480px;
+    height: 55px;
+    background-color: rgba(34, 32, 32, 0.541);
+    position: absolute;
+    top: 70%;
+    left: 45%;
+    translate: -50% -50%;
+    padding-left:20px ;
+    border: 1px rgba(255, 255, 255, 0.596) solid;
+    border-radius: 4px;
+    color: white;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.623);
+    font-size: 16px;
+}
+
+
+.get-started {
+    font-family: 'Netflix Sans', 'Helvetica Neue', 'Segoe UI', Roboto, Ubuntu;
+    font-size: 20px;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    width: 200px;
+    height: 55px;
+    position: absolute;
+    top: 70%;
+    left: 63%;
+    translate: -50% -50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.get-started:hover {
+    background-color: rgba(255, 0, 0, 0.747);
+}
+
+
+                                    /* B I G  C I R C L E  */
+
+
+
+/* .big-circle{
+    position: absolute;
+    top: 750px;
+    left: -1560px;
+    width: 5000px;
+    height: 5000px;
+    border: 3px solid rgb(255, 26, 26);
+    background-color:black;
+    border-radius:2300px;
+    color: black;
+    z-index: 0;
+} */
+.trending {
+    font-family: 'Netflix Sans', 'Helvetica Neue', 'Segoe UI', Roboto, Ubuntu ;
+    color: white;
+    font-weight: bolder;
+    position: absolute;
+    top: 900px;
+    left: 360px;
+    font-size: 35px;
+}
+
+.country {
+        border-radius: 5px;
+        position: absolute;
+        top: 1000px;
+        left: 360px;
+        background-color: transparent;
+        background-color: rgb(22, 22, 22);
+        color: white;
+        width: 80px;
+        height: 40px;
+        cursor: pointer;
+    }
+    
+option {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+.mov {
+    border-radius: 5px;
+    position: absolute;
+    top: 1000px;
+    left: 470px;
+    background-color: rgb(22, 22, 22);
+    color: white;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.movie-scroll {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-direction: row;
+    overflow-x: hidden;
+    overflow-x:auto;
+    position: absolute;
+    top: 1060px;
+    left: 400px;
+    width: 1000px;
+    height: 370px;
+    /* border: 2px solid red; */
+}
+
+.comedy {
+    margin-left: 30px;
+    transition: all 0.2s linear;
+    cursor: pointer;
+}
+
+.comedy:hover{
+    transform: scale(1.1);
+}
+
+.movie-scroll::-webkit-scrollbar {
+    height: 10px;
+    background-color: rgb(43, 43, 44);
+}
+
+
+                             /* <!-- M O R E  --> */
+
+
+.more1 {
+    font-size: 37px;
+    font-weight: bolder;
+    color: white;
+    position: absolute;
+    top: 1500px;
+    left: 360px;
+}
+
+.more-reason {
+    width: 1200px;
+    height: 400px;
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 1540px;
+    left: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.inside-more {
+    width: 280px;
+    height: 320px;
+    background:linear-gradient(140deg, rgba(75, 103, 243, 0.288) 29%, rgba(252, 70, 106, 0.285) 100%);
+    border-radius: 20px;
+    transition: 0.2s;
+}
+.inside-more:hover{
+    transform: scale(1.04);
+}
+.text {
+    font-size: 25px;
+    color: white;
+    position: relative;
+    left: 30px;
+    top: 30px;
+}
+
+.text2 {
+    position: relative;
+    left: 30px;
+    top: 60px;
+    color: rgba(255, 255, 255, 0.74);
+}
+
+
+
+                                /* <!-- 6 D I V  --> */
+.Frequently {
+    font-family: 'Netflix Sans', 'Helvetica Neue', 'Segoe UI', Roboto, Ubuntu ;
+    color: white;
+    font-weight: bolder;
+    position: absolute;
+    top: 1950px;
+    left: 360px;
+    font-size: 35px;
+}
+
+.div6 {
+    width: 1200px;
+    height: 900px;
+    position: absolute;
+    top: 2100px;
+    left: 360px;
+    /* border: 2px solid red; */
+}
+
+.faqs1 {
+    width: 1140px;
+    background-color: rgba(103,103,103,0.437);
+    height: 90px;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-left: 30px;
+    font-size: 30px;
+}
+
+.faqs2 {
+    margin-top: 30px;
+    width: 1140px;
+    background-color: rgba(103,103,103,0.437);
+    height: 90px;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-left: 30px;
+    font-size: 30px;
+}
+
+.faqs3 {
+    margin-top: 30px;
+    width: 1140px;
+    background-color: rgba(103,103,103,0.437);
+    height: 90px;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-left: 30px;
+    font-size: 30px;
+}
+
+.faqs4 {
+    margin-top: 30px;
+    width: 1140px;
+    background-color: rgba(103,103,103,0.437);
+    height: 90px;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-left: 30px;
+    font-size: 30px;
+}
+
+.faqs5 {
+    margin-top: 30px;
+    width: 1140px;
+    background-color: rgba(103,103,103,0.437);
+    height: 90px;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-left: 30px;
+    font-size: 30px;
+}
+
+.faqs6 {
+    margin-top: 30px;
+    width: 1140px;
+    background-color: rgba(103,103,103,0.437);
+    height: 90px;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-left: 30px;
+    font-size: 30px;
+}
+
+
+.faqs1 i {
+    position: relative;
+    right: -870px;
+}
+
+.faqs2 i {
+    position: relative;
+    right: -690px;
+}
+
+.faqs3 i {
+    position: relative;
+    right: -815px;
+}
+
+.faqs4 i {
+    position: relative;
+    right: -850px;
+}
+
+.faqs5 i {
+    position: relative;
+    right: -695px;
+}
+
+.faqs6 i {
+    position: relative;
+    right: -770px;
+}
+.faq {
+    transition: 0.3s;
+    margin-top: 10px;
+}
+.faq:hover {
+    background-color: rgba(103, 103, 103, 0.719);;
+}
+
+.body-watch1 {
+    font-family: 'Netflix Sans', 'Helvetica Neue', 'Segoe UI', Roboto, Ubuntu;
+    font-family: default;
+    font-size: 16px;
+    position: absolute;
+    top: 2800px;
+    left: 50%;
+    translate: -50% -50%;
+    color: white;
+}
+
+.emial1 {
+    width: 480px;
+    height: 55px;
+    background-color: rgba(34, 32, 32, 0.541);
+    position: absolute;
+    top: 2850px;
+    left: 45%;
+    translate: -50% -50%;
+    padding-left:20px ;
+    border: 1px rgba(255, 255, 255, 0.596) solid;
+    border-radius: 4px;
+    color: white;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.623);
+    font-size: 16px;
+}
+
+.get-started1 {
+    font-family: 'Netflix Sans', 'Helvetica Neue', 'Segoe UI', Roboto, Ubuntu;
+    font-size: 20px;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    width: 200px;
+    height: 55px;
+    position: absolute;
+    top: 2850px;
+    left: 63%;
+    translate: -50% -50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.get-started1:hover {
+    background-color: rgba(255, 0, 0, 0.747);
+}
+
+                        /* f o o t e r */
+
+footer {
+    position: absolute;
+    bottom:-2500;
+    width: 1850px;
+    height: 500px;
+    /* border: 2px red solid; */
+}
+.questions {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.651);
+    position: relative;
+    left: 360px;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-nav{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px green solid; */
+    width: 200px;
+    height: 250px;
+    position: relative;
+    top: 10%;
+    left:20%;
+}
+
+.na {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.651);
+    margin-top: 20px;
+}
+
+.footer-nav2 {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px green solid; */
+    width: 200px;
+    height: 250px;
+    position: relative;
+    top:-40%;
+    left:35%;
+}
+
+
+.footer-nav3 {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px green solid; */
+    width: 200px;
+    height: 250px;
+    position: relative;
+    top:-90%;
+    left:50%;
+}
+
+
+.footer-nav4 {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px green solid; */
+    width: 200px;
+    height: 250px;
+    position: relative;
+    top:-142%;
+    left:67%;
+}
+
+.lang1 {
+    position: relative;
+    bottom: 700px;
+    left:20%;
+    border-radius: 5px;
+    padding-left: 50px;
+    width: 100px;
+    background-color: transparent;
+    color: white;
+    width: 140px;
+    height: 35px;
+    cursor: pointer;
+}
+
+option {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+#lan1 {
+    position: relative;
+    bottom: 697px;
+    left:13%;
+    color: white;
+    font-size:20px;
+    color: white;
+    cursor: pointer;
+}
+
+.net-ind {
+    position: relative;
+    bottom:130%;
+    left: 20%;
+    color: rgba(255, 255, 255, 0.651);
+}
+
+
+                                                /* S I G N IN  */
+
+.sign-bar {
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    translate: -50% -50%;
+    width: 450px;
+    height: 700px;
+    background-color: rgba(0, 0, 0, 0.849);
+}
+
+.page10 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: rgba(0, 0, 0, 0.377);
+    width: 2000px;
+    height: 800px;
+    z-index: 0;
+}
+
+.s1 {
+    color: white;
+    position: relative;
+    top: 8%;
+    left: 15%;
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.emial2 {
+    width: 300px;
+    height: 55px;
+    background-color: rgba(34, 32, 32, 0.541);
+    position: relative;
+    top:17%;
+    left: 50%;
+    translate: -50% -50%;
+    padding-left:20px ;
+    border: 1px rgba(255, 255, 255, 0.596) solid;
+    border-radius: 4px;
+    color: white;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.623);
+    font-size: 16px;
+}
+
+.emial3 {
+    width: 300px;
+    height: 55px;
+    background-color: rgba(34, 32, 32, 0.541);
+    position: relative;
+    top:20%;
+    left: 50%;
+    translate: -50% -50%;
+    padding-left:20px ;
+    border: 1px rgba(255, 255, 255, 0.596) solid;
+    border-radius: 4px;
+    color: white;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.623);
+    font-size: 16px;
+}
+
+.sing1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    height: 45px;
+    border-radius:10px;
+    background-color: red;
+    color: white;
+    position: relative;
+    top:23%;
+    left: 50%;
+    translate: -50% -50%;
+    font-weight: bolder;
+    transition: 0.2s;
+}
+.sing1:hover {
+    background-color: rgba(255, 0, 0, 0.747);
+}
+.or {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    height: 50px;
+    border-radius:10px;
+    background-color: rgba(0, 110, 255, 0);
+    color: rgba(255, 255, 255, 0.678);
+    position: relative;
+    top:23%;
+    left: 50%;
+    translate: -50% -50%;
+    font-weight: lighter;
+}
+
+.use {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    height: 45px;
+    border-radius:10px;
+    background-color: rgba(255, 255, 255, 0.203);
+    color: white;
+    position: relative;
+    top:23%;
+    left: 50%;
+    translate: -50% -50%;
+    font-weight: bolder;
+}
+
+.forgot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    height: 45px;
+    border-radius:10px;
+    color: white;
+    position: relative;
+    top:23%;
+    left: 50%;
+    translate: -50% -50%;
+}
+
+.remem {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    width: 200px;
+    width: 20px;
+    /* border: 2px solid red; */
+    position: relative;
+    top:30%;
+    left: 15%;
+    translate: -50% -50%;
+}
+
+.check {
+    background-color: black;
+}
+
+
+.new1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    height: 45px;
+    border-radius:10px;
+    color: white;
+    position: relative;
+    top:33%;
+    left: 35%;
+    translate: -50% -50%;
+}
+#new1{
+    color: rgba(255, 255, 255, 0.575);
+}
+

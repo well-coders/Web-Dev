@@ -1,0 +1,288 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar {
+        height: 60px;
+        background-color: #232F3E;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+}
+
+.navlogo{
+    height: 50px;
+    width: 100px;
+}
+
+.nav-address {
+    margin-top: 10px;
+}
+
+            /* box1 */
+
+.logo {
+    background-image: url("download.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+.border {
+    border: 2px solid  transparent
+}
+
+.border:hover {
+    border: 2px solid white ;
+}
+
+
+/* box2 */
+
+.add-first {
+    color: #cccccc;
+    font-size: .85rem;
+    margin-left: 15px; 
+}
+
+
+.add-sec {
+    color: white;
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+        /* box3 */
+
+.nav-search {
+    display: flex;
+    background-color: pink;
+    width: 900px;
+    height: 40px;
+    justify-content: space-between;
+    border-radius: 4px;
+}
+
+.search-select {
+    border-color: #232F3E;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom: 4px;
+}
+
+.search-input {
+    text-align: center;
+    border-color: none;
+    width: 830px;
+}
+#A1 {
+    width: 50px;
+    height: 20px;
+    border-right: 4px;
+    border-color:#232F3E ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange ;
+}
+
+.nav-language:hover {
+    border: 2px solid white ;
+}
+
+     /* box5 */
+
+
+.nav-login:hover {
+    border: 2px solid white ;
+}
+
+
+.hello {
+    font-size: x-small;
+    color: white;
+}
+
+.hello1 {
+    color: white;
+}
+
+
+    /* box6 */
+
+.nav-returns:hover {
+    border: 2px solid white ;
+}
+
+.Returns {
+    font-size: x-small;
+    color: white;
+}
+
+.Return1 {
+    color: white;
+}
+
+
+     /* box7 */
+
+
+
+.nav-cart {
+    color: white;
+}
+
+.nav-cart:hover {
+    border: 2px solid white ;
+}
+
+#B1 {
+    font-size: xx-large;
+    color: white;
+    
+}
+
+.nav-select {
+    background-color: #25374e;
+    color: white;
+    border: #232F3E;
+}
+
+
+                  /* nav-span */
+
+.nav-span {
+    background-color: #182727;
+    color: white;
+    display: flex;
+    font-family: arial;
+    height: 39px;
+}
+
+.span {
+    padding-top: 10px;
+    margin: 5px;
+    margin-left: 20px;
+    font-size: small;
+    font-style: bold;
+}
+
+.span:hover {
+    border: 2px solid white ;
+}
+
+
+
+                 /* HERO-SECTION */
+.hero-section {
+    background-image: url(61CiqVTRBEL._SX3000_.jpg);
+    background-size: cover;
+    height: 600px;
+}
+
+.king1 {
+    background-image: url(AMA1.png);
+    background-size: cover;
+    height: 1000px;
+}
+
+
+.king2 {
+    background-image: url(Screenshot\ \(31\).png);
+    background-size: cover;
+    height: 1000px;
+}
+
+.king3 {
+
+    background-image: url(Screenshot\ \(32\).png);
+    background-size: cover;
+    height: 1000px;
+}
+
+.king4 {
+    background-image: url(Screenshot\ \(33\).png);
+    background-size: cover;
+    height: 1000px;
+}
+
+
+                       /* footer  */
+
+.nav-back {
+    background-color: #182727 ;
+    height: 40px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-totop {
+    width: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: none;
+    
+}
+
+.nav-totop:hover {
+    color: orange;
+    font-size: large;
+}
+
+footer {
+    margin-top: 15px;
+}
+.big1 {
+    color: white;
+    background-color: #232F3E;
+    height: 250px;
+    padding: 70px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.big {
+    color: white;
+    height: 300px;
+
+
+}
+
+ul p {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+
+.foot-panel {
+    color: white;
+    background-color: #232F3E;
+    border-top: white solid 0.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    background-image: url("download.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}

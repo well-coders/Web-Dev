@@ -1,0 +1,678 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Roboto , Noto , sans-serif;
+}
+body {
+    font-family:fantasy;
+    background-color: rgb(19, 18, 18);
+    overflow-x: hidden;
+}
+
+.nav-top1 {
+    width: 100vw;
+    height: 6vh;
+    /* border: 2px red solid; */
+    display: flex;
+    flex-direction: row;
+}
+
+.subnav1{
+    /* background: white; */
+    width: 10vw;
+    height: 4vh;
+    margin-top: 15px;
+    /* border: 2px red solid; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#bars {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2vw;
+    height: 40px;
+    border-radius: 50px;
+    margin-left: 10px;
+    color: rgba(255, 255, 255, 0.756);
+} 
+#bars i {
+    font-size: 20px;
+}
+#bars:hover {
+    background-color: rgba(249, 251, 252, 0.094);
+    cursor: pointer;
+}
+#top-y-logo {
+    color: red;
+    font-size: 27px;
+}
+
+.you-text {
+    color: white;
+    font-family:sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+h1 {
+    margin-top: 3px;
+    font-size: 20px;
+}
+sup {
+    color: rgba(249, 251, 252, 0.57);
+    font-size: 10px;
+}
+
+.nav-top1 > .inp {
+    position: relative; 
+    left: 20%;
+    margin-top: 15px;
+    width: 40vw;
+    height:5vh;
+    /* border: 2px red solid; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+input {
+    font-weight: bolder;
+    width: 30vw;
+    height: 4vh;
+    background-color: rgb(24, 23, 23);
+    border: 1px rgb(55, 51, 51) solid;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding-left: 20px;
+    color: white;
+}
+input::placeholder {
+    color: rgb(102, 101, 101);
+}
+
+.mag {
+    /* border: 2px red solid; */
+    color: white;
+    width: 3vw;
+    height: 4.2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: rgba(52, 52, 52, 0.75);
+}
+
+.mag:hover {
+    cursor: pointer;
+}
+
+.mic {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2%;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(52, 52, 52, 0.75);
+    border-radius: 130px;
+}
+
+.mic:hover {
+    background-color: rgba(84, 81, 81, 0.95);
+}
+
+
+
+.nav-top1 > .subnuv3 {
+    margin-left: 7vw;
+    margin-top: 25px;
+    width: 40vw;
+    height:5vh;
+    /* border: 2px red solid; */
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.vid {
+    margin-top: -10px;
+    margin-right: -3vw;
+    color: white;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+.vid:hover {
+    background-color: rgba(249, 251, 252, 0.094);
+
+}
+.bell  {
+    margin-top: -10px;
+    margin-left:  3.5vw;
+    color: white;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.bell:hover {
+    background-color: rgba(249, 251, 252, 0.094);
+}
+
+#myprofile {
+    margin-top: -5px;
+    margin-left:  1.0vw;
+    height: 30px;
+    width: 30px;
+    border-radius:50px;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #bars {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 45px;
+        height: 40px;
+        border-radius: 50px;
+        margin-left: 10px;
+        color: rgba(255, 255, 255, 0.756);
+        font-size: 4vw;
+    } 
+    #top-y-logo {
+        margin-top: 4px;
+        color: red;
+        font-size: 5vw;
+    }
+    
+    .you-text {
+        color: transparent;
+        font-family:sans-serif;
+        display: flex;
+        flex-direction: row;
+    }
+    sup {
+        color: transparent;
+    }
+    .inp {
+        position: relative; 
+        left: 20%;
+        margin-top: 15px;
+        width: 20vw;
+        height:5vh;
+        /* border: 2px red solid; */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    input {
+        font-weight: bolder;
+        width: 20vw;
+        height: 4vh;
+        background-color: rgb(24, 23, 23);
+        border: 1px rgb(55, 51, 51) solid;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+        padding-left: 20px;
+        color: white;
+    }
+    .mag {
+        /* border: 2px red solid; */
+        color: white;
+        width: 7vw;
+        height: 4.3vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        background-color: rgba(52, 52, 52, 0.75);
+        font-size: 3vw;
+    }
+    .mic {
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 2%;
+        width:7vw;
+        height: 4.5vh;
+        background-color: rgba(52, 52, 52, 0.75);
+        border-radius: 130px;
+        font-size: 3vw;
+    }
+    
+    .mic:hover {
+        background-color: rgba(84, 81, 81, 0.95);
+    }
+    
+    
+    
+.subnuv3 {
+        margin-left: 7vw;
+        margin-top: 25px;
+        width: 20vw;
+        height:5vh;
+        /* border: 2px red solid; */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .vid {
+        margin-top: -10px;
+        margin-left: 1vw;
+        color: white;
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 3.5vw;
+    }
+    .vid:hover {
+        background-color: rgba(249, 251, 252, 0.094);
+    
+    }
+    .bell  {
+        margin-top: -10px;
+        margin-left:  3vw;
+        color: white;
+        font-size: 15px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 3.5vw;
+
+    }
+    .bell:hover {
+        background-color: rgba(249, 251, 252, 0.094);
+    }
+    
+    #myprofile {
+        margin-top: -5px;
+        margin-left:3vw;
+        height: 3vh;
+        width: 4vw;
+        border-radius:50px;
+    }
+}
+
+                                              /* <!-- VERTICAL NAV BAR  --> */
+
+
+
+
+.v-nav {
+    z-index: -1;
+    /* overflow-y: scroll; */
+    /* border: 2px red solid; */
+    width: 14vw;
+    height: 1000px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    color: rgb(253, 253, 253);
+    transition: all 1s;
+    scrollbar-width: 2px;
+    scrollbar-color: red;
+
+}
+::-webkit-scrollbar-track{
+    color: red;
+}
+.v-nav  i {
+    font-size:20px;
+    margin-left: -5vw;
+}
+
+.v-nav pre {
+    font-size: 15px;
+
+}
+
+.home {
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    /* border: 2px red solid; */
+    background-color: rgba(118, 117, 117, 0.363);
+
+    width: 12vw;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.home:hover {
+    background-color: rgba(118, 117, 117, 0.811);
+
+}
+
+.home1 {
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 12vw;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.home1:hover {
+    background-color: rgba(118, 117, 117, 0.363);
+}
+
+hr {
+    width: 13vw;
+    height: 0.01vh;
+    border: 0.5px rgba(255, 255, 255, 0.322) solid;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.home2 {
+    margin-top: 5px;
+    font-weight: bolder;
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 12vw;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.home2:hover {
+    background-color: rgba(118, 117, 117, 0.363);
+}
+#you-nav {
+    margin-left: -6.8vw;
+}
+#arrow {
+    font-size: 0.8vw;
+}
+
+#subcription{
+    font-size: 16px;
+    font-weight: bolder;
+    margin-top: 2vh;
+    margin-left: 1.5vw;
+}
+
+
+.subcriptionpro {
+    margin-left: 0.6vw;
+    margin-top: 1.5vh;
+    width: 12vw;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.subprofile {
+    margin-left:  1.0vw;
+    height: 30px;
+    width: 30px;
+    border-radius:50px;
+    cursor: pointer;
+}
+
+.textpro {
+    margin-bottom: 5px;
+}
+.subcriptionpro1 {
+    margin-left: 0.6vw;
+    margin-top: 0.7vh;
+    width: 12vw;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.subcriptionpro:hover {
+    background-color: rgba(118, 117, 117, 0.363);
+
+}
+.subcriptionpro1:hover {
+    background-color: rgba(118, 117, 117, 0.363);
+
+}
+
+.v-nav::-webkit-scrollbar{
+    min-width: 5px;
+    max-width: 5px;
+    min-height: 5px;
+    max-height: 5px;
+    scrollbar-width: 4px;
+}
+
+.v-nav::-webkit-scrollbar-thumb {
+    min-width: 5px;
+    max-width: 5px;
+    min-height: 5px;
+    max-height: 5px;
+    background: rgba(233, 240, 240, 0.502);
+    border-radius: 20px;
+}
+.v-nav::-webkit-scrollbar-track{
+    scrollbar-width: 4px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 20px;
+}
+.v-nav:hover {
+    overflow-y: visible;
+}
+
+@media only screen and (max-width: 1167px) {
+    .home i{
+        margin-left: 3vw;
+    }
+    .home1 i {
+        margin-left: 3vw;
+    }
+}
+@media only screen and (max-width: 643px) {
+    .home i{
+        margin-left: 15vw;
+    }
+    .home1 i {
+        margin-left: 15vw;
+    }
+}
+
+
+
+                                        /* <!-- Horizontal nav bar --> */
+
+
+
+.h-nav-bar {
+    position: absolute;
+    top: 7%;
+    left: 15.5%;
+    width:1600px;
+    height:5vh;
+    /* border:red solid 2px; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-x:scroll;
+}
+.h-nav-bar::-webkit-scrollbar {
+    display: none;
+}
+.sug {
+    margin-right: 0.5vw;
+    height: 3.5vh;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: fit-content;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+
+.sug1 {
+    margin-right: 0.5vw;
+    height: 3.5vh;
+    padding-left: 15px;
+    padding-right: 15px;
+    width:fit-content;
+    color: white;
+    background-color: rgba(84, 80, 80, 0.533);
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.sug1:hover {
+    background-color: rgb(84, 80, 80);
+}
+
+
+
+                                    /* <!-- T H A M B N A I L  --> */
+.tham-div {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 70vh;
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 15%;
+    left: 15%;
+}
+.tha1 {
+    color: white;
+    width: 22vw;
+    height: 34vh;
+    /* border: 2px solid red; */
+    cursor: pointer;
+
+}
+.tha-pho {
+    width: 21vw;
+    height: 24vh;
+    border-radius:10px;
+    transition: all 0.05s;
+}
+.tha-pho:hover {
+    border-radius: 0;
+}
+.sub-tha {
+    width: 22vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid red; */
+}
+.sub-tha {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+}
+
+.title {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.channel-name {
+    margin-top: 40px;
+    margin-left: -260px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.529);
+}
+.channel-name:hover {
+    color: white;
+}
+
+.verify {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.593);
+    border-radius: 20px;
+    width: 13px;
+    height: 13px;
+    margin-top: -17px;
+    margin-left: 103px;
+    display: flex;
+    transform: rotate(20deg);
+    align-items: center;
+    justify-self: center;
+    font-size: 13px;
+}
+
+.date {
+    color: rgba(255, 255, 255, 0.529);
+    margin-top: 60px;
+    margin-left: -115px;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 643px) {
+    .tham-div {
+        width: 100vw;
+        height: 70vh;
+        /* border: 2px solid red; */
+        position: absolute;
+        top: 15%;
+        left: 15%;
+        display: flex;
+        flex-direction: column;
+    }
+    .tha1 {
+        color: white;
+        width: 22vw;
+        height: 34vh;
+        /* border: 2px solid red; */
+        cursor: pointer;
+    margin-bottom: 45px;
+    }
+    .tha-pho {
+        width: 350px;
+        height: 24vh;
+        border-radius:10px;
+        transition: all 0.05s;
+    }
+}
